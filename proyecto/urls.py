@@ -21,4 +21,5 @@ from proye import views as views_proyecto
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',views_proyecto.proyecto, name="Principal"),
+     path('producto/',views_proyecto.producto, name="Producto"),
 ]
