@@ -5,3 +5,6 @@ def proyecto(request):
 
 def producto(request):
     return render(request,"proye/producto.html")
+
+def filtrado(request):
+    return render(request,"proye/filtrado.html")

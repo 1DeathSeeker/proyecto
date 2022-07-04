@@ -149,7 +149,7 @@
 
             <div class="logo">
               <a href="index.html">
-                <img src="static/proye/images/logos/logo.png" alt="" />
+                <img src="{%block rutalogo%} {%endblock%}"/>
                 <!-- Replace Logo Here -->
               </a>
             </div>
@@ -159,7 +159,7 @@
             <div class="top-ad-banner float-right">
               <a href="#">
                 <img
-                  src="static/proye/images/news/ad-pro.png"
+                  src="{%block rutaads%}{%endblock%}"
                   class="img-fluid"
                   alt="banner-ads"
                 />
@@ -302,8 +302,7 @@
           <div class="col-md-8 col-sm-12 col-lg-6 text-center">
             <a href="index.html"
               ><img
-                src="static/proye/images/logos/footer-logo.png"
-                alt=""
+                src="{%block logobajo%}{%endblock%}"
                 class="img-fluid"
             /></a>
             <p class="mt-4">Aquí va algún texto piratón xD</p>
