@@ -22,5 +22,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('',views_proyecto.proyecto, name="Principal"),
     path('producto/',views_proyecto.producto, name="Producto"),
-    path('filtrado/',views_proyecto.filtrado, name="Filtros")
+    path('filtrado/',views_proyecto.filtrado, name="Filtros"),
+    path('contacto/',views_proyecto.contacto, name="Contacto")
 ]

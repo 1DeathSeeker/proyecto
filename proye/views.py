@@ -8,3 +8,6 @@ def producto(request):
 
 def filtrado(request):
     return render(request,"proye/filtrado.html")
+
+def contacto(request):
+    return render(request,"proye/contacto.html")
